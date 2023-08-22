@@ -1,0 +1,104 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Admin", "ImageIdHere")
+
+tab.newButton("Fly Gui V3", "Toyib!", function()loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    print('Fly!')
+end)
+
+tab.newButton("infintie yield", "Curut!", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print('Yield!')
+end)
+
+tab.newButton("Hitbox 20", "Hidup!", function()_G.HeadSize = 20 _G.Disabled = true   game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.7 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+    print('HB 20!')
+end)
+
+tab.newButton("Hitbox 20", "Mati!", function()_G.HeadSize = 20 _G.Disabled = false   game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.7 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+    print('hb20!')
+end)
+
+tab.newButton("keyboard", "Mobile!", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Mobile-keyboard-6975"))()
+    print('fe!')
+end)
+
+tab.newButton("SpeedSet", "Mobile!", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/PrototypeRBLX/Speed-Script/main/README.md'),true))()
+    print('fe!')
+end)
+
+tab.newToggle("CurutGui", "Toggle! (Lu Curut)", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+tab.newInput("Input", "Prints your input.", function(text)
+    print("Entered text: " .. text)
+end)
+
+tab.newKeybind("Biji Mahmud", "Press the biji to start; it will be printed out.", function(biji)
+    print(biji)
+end)
+
+tab.newSlider("Selancaran", "Epic slider", 1000, false, function(num)
+    print(num)
+end)
+
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Admin", "ImageIdHere")
+
+tab.newButton("Fly Gui V3", "Toyib!", function()loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    print('Fly!')
+end)
+
+tab.newButton("infintie yield", "Curut!", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print('Yield!')
+end)
+
+tab.newButton("Hitbox 20", "Hidup!", function()_G.HeadSize = 20 _G.Disabled = true   game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.7 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+    print('HB 20!')
+end)
+
+tab.newButton("Hitbox 20", "Mati!", function()_G.HeadSize = 20 _G.Disabled = false   game:GetService('RunService').RenderStepped:connect(function() if _G.Disabled then for i,v in next, game:GetService('Players'):GetPlayers() do if v.Name ~= game:GetService('Players').LocalPlayer.Name then pcall(function() v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize) v.Character.HumanoidRootPart.Transparency = 0.7 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue") v.Character.HumanoidRootPart.Material = "Neon" v.Character.HumanoidRootPart.CanCollide = false end) end end end end)
+    print('hb20!')
+end)
+
+tab.newButton("keyboard", "FeMobile!", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Mobile-keyboard-6975"))()
+    print('keyboard!')
+end)
+
+tab.newButton("SetSpeed", "Mobile!", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/PrototypeRBLX/Speed-Script/main/README.md'),true))()
+    print('Speed!')
+end)
+
+tab.newToggle("biji", "Toggle! (LuCurut)", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+local tab = DrRayLibrary.newTab("Random Game", "ImageIdHere")
+
+tab.newButton("Booga", "DevilHub!", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main", true))()
+    print('devilhub!')
+end)
+
+tab.newButton("BloxFruit", "DemonHub!", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/YTB-TNGaming/main/DemonHub.lua"))()
+-- Link Get Key : https://bit.ly/3KKo4nC
+    print('demonhub!')
+end)
+
+tab.newButton("KingLegacy", "HohoHub!", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-HoHo-Hub-+15-Games-2392"))()
+    print('HohoHub!')
+end)
+
+tab.newButton("brookhaven", "IceHub!", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ice-Hub-6414"))()
+    print('Icehub!')
+end)
